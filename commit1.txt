@@ -1,2 +1,2 @@
 commit de fileclone pull ve
-commit1 tu file clone len git 
+git commit1 tu nhanh developerB
