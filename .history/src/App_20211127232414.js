@@ -25,8 +25,8 @@ function App()
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
-        <Box sx={{  height: '100vh' }} >
+      <Container maxWidth="sm">
+        <Box sx={{ bgcolor: '#cfe8fc', height: '200vh' }} >
         
        
      <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>

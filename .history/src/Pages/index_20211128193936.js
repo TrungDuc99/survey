@@ -2,16 +2,15 @@
 import * as React from 'react'
 import { Button, Tab, Tabs } from '@mui/material';
 import { Box } from '@mui/system';
-import './App.css';
-import UnstyledButtonCustom from './components/Button/UnstyledButtonCustom';
-import CustomizedSwitches from './components/Switch/CustomizedSwitches';
-import UseInput from './components/TextField/UseInput';
+import UnstyledButtonCustom from '../components/Button/UnstyledButtonCustom';
+import CustomizedSwitches from '../components/Switch/CustomizedSwitches';
+import UseInput from '../components/TextField/UseInput';
 // import TransitionGroupExample from './components/Transitions/TransitionGroupExample';
-import BasicDateRangePicker from './components/DateRangePicker/BasicDateRangePicker';
+import BasicDateRangePicker from '../components/DateRangePicker/BasicDateRangePicker';
 import CssBaseline from '@mui/material/CssBaseline';
 
 import Container from '@mui/material/Container';
-function App()
+function Home()
 {
   
 
@@ -26,7 +25,7 @@ function App()
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="md">
-        <Box sx={{  height: '100vh' }} >
+        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} >
         
        
      <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
@@ -50,6 +49,4 @@ Login
   );
 }
 
-export default App;
-
-
+export default Home;
