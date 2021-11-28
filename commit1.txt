@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-commit de fileclone pull ve
-git commit1 tu nhanh developerB
-=======
->>>>>>> parent of 3d52d65 (commit de file clone pull ve)
